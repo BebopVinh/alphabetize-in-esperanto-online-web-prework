@@ -14,3 +14,8 @@ def alphabetize(arr)
   binding.pry
   new_array.sort!
 end
+
+  ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz".split("")
+  binding.pry
+end
+
