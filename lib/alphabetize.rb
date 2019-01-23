@@ -12,7 +12,7 @@ def alphabetize(arr)
     end
   end
   binding.pry
-  new_array.sort_by { |a, b| a <=> b}
+  new_array = new_array.sort_by { |a, b| a <=> b}
 end
 
   ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz".split("")
