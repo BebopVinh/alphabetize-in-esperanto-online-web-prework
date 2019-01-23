@@ -11,6 +11,6 @@ def alphabetize(arr)
       end
     end
   end
-
   new_array = new_array.sort_by { |a, b| a <=> b}
+  binding.pry
 end
