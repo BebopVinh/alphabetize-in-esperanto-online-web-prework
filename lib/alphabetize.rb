@@ -11,10 +11,6 @@ def alphabetize(arr)
       end
     end
   end
-  binding.pry
-  new_array = new_array.sort_by { |a, b| a <=> b}
-end
 
-  ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz".split("")
-  binding.pry
+  new_array = new_array.sort_by { |a, b| a <=> b}
 end
